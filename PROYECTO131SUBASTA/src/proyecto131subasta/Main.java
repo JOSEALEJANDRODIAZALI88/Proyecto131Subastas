@@ -5,10 +5,10 @@ public class Main {
         // SUBASTAS
         LDobleSubasta subastas = new LDobleSubasta();
         subastas.adiFinal(new NodoS(1, "01/06/2025", "10/06/2025", "Abierta"));
-        subastas.adiFinal(new NodoS(2, "05/06/2025", "12/06/2025", "Cerrada"));
+        subastas.adiFinal(new NodoS(2, "02/06/2025", "12/06/2025", "Cerrada"));
         subastas.adiFinal(new NodoS(3, "10/06/2025", "20/06/2025", "Abierta"));
-        subastas.adiFinal(new NodoS(4, "15/06/2025", "25/06/2025", "Cerrada"));
-        subastas.adiFinal(new NodoS(5, "20/06/2025", "30/06/2025", "Abierta"));
+        subastas.adiFinal(new NodoS(4, "30/06/2025", "25/06/2025", "Cerrada"));
+        subastas.adiFinal(new NodoS(5, "10/06/2025", "30/06/2025", "Abierta"));
 
         System.out.println("SUBASTAS");
         subastas.mostrar();
